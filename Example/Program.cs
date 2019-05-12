@@ -107,7 +107,7 @@ namespace Example
                     locationFound = true;
 
                     //var station = MetarStationLookup.Instance.Lookup(Watcher.Position.Location.Latitude, Watcher.Position.Location.Longitude);
-                    var station = MetarStationLookup.Instance.Lookup(33.6, -102.0333333333333);
+                    var station = MetarStationLookup.Instance.Lookup(33.6, -102.0333333333333); //0 results
                     station.Updated += Station_Updated;
                     station.Update();
                     //ResolveAddressSync();             
